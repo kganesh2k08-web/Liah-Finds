@@ -7,7 +7,6 @@
   let highlightedCode = "";
 
   const elements = {
-    disclosureText: document.getElementById("disclosure-text"),
     brandName: document.getElementById("brand-name"),
     brandHandle: document.getElementById("brand-handle"),
     brandTagline: document.getElementById("brand-tagline"),
@@ -60,9 +59,6 @@
   }
 
   function applySiteConfig() {
-    if (elements.disclosureText && SITE_CONFIG.disclosureShort) {
-      elements.disclosureText.textContent = SITE_CONFIG.disclosureShort;
-    }
     if (elements.brandName) elements.brandName.textContent = SITE_CONFIG.brandName;
     if (elements.brandHandle) elements.brandHandle.textContent = SITE_CONFIG.handle;
     if (elements.brandTagline) elements.brandTagline.textContent = SITE_CONFIG.tagline;

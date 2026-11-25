@@ -51,19 +51,6 @@ h1, h2, h3, .find-code, .btn-primary {
   padding: 0 16px;
 }
 
-/* Disclosure Banner */
-.disclosure-bar {
-  background-color: var(--primary);
-  color: var(--on-primary);
-  text-align: center;
-  padding: 8px 16px;
-  font-size: 0.8125rem;
-}
-
-.disclosure-bar p {
-  margin: 0;
-}
-
 /* Header */
 .site-header {
   background-color: var(--surface);
