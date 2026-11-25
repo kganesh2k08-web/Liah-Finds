@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="600" height="360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f4f5"/>
+      <stop offset="100%" stop-color="#fdf2f8"/>
+    </linearGradient>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="60%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#fde047" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="360" fill="url(#bg)"/>
+  <circle cx="300" cy="190" r="115" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="300" cy="190" rx="90" ry="52" fill="none" stroke="#ec4899" stroke-width="14"/><ellipse cx="300" cy="210" rx="72" ry="40" fill="none" stroke="#18181b" stroke-width="12"/><rect x="200" y="255" width="36" height="24" rx="8" fill="#18181b"/><rect x="364" y="255" width="36" height="24" rx="8" fill="#18181b"/>
+  <rect x="24" y="22" width="78" height="32" rx="16" fill="#18181b"/>
+  <text x="63" y="43" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="15" font-weight="700">#003</text>
+  <text x="576" y="42" text-anchor="end" fill="#475569" font-family="sans-serif" font-size="13" font-weight="700">FITNESS</text>
+</svg>

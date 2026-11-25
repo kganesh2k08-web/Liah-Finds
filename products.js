@@ -32,7 +32,7 @@ const PRODUCTS = [
     hook: "Ergonomic non-slip grip with adjustable resistance for forearm & wrist strength.",
     keywords: "boldfit hand grip forearm workout fitness gym strength",
     affiliateUrl: "https://www.amazon.in/dp/B09PDZD95V/",
-    imageUrl: ""
+    imageUrl: "images/001.svg"
   },
   {
     code: "002",
@@ -42,7 +42,7 @@ const PRODUCTS = [
     hook: "6-speed cordless massager with 4 interchangeable heads for post-workout relief.",
     keywords: "agaro galaxy massage gun recovery sore muscles fitness gym",
     affiliateUrl: "https://www.amazon.in/s?k=AGARO+Galaxy+Gun+Massager",
-    imageUrl: ""
+    imageUrl: "images/002.svg"
   },
   {
     code: "003",
@@ -52,7 +52,7 @@ const PRODUCTS = [
     hook: "Durable resistance bands for pull-ups, stretching, and full-body home training.",
     keywords: "boldfit resistance bands home workout gym travel fitness",
     affiliateUrl: "https://www.amazon.in/s?k=Boldfit+resistance+band+set",
-    imageUrl: ""
+    imageUrl: "images/003.svg"
   },
   {
     code: "004",
@@ -62,7 +62,7 @@ const PRODUCTS = [
     hook: "Compact extendable tripod mount for gym clips, Reels, and desk setups.",
     keywords: "digitek magnetic phone tripod magsafe vlog stand tech",
     affiliateUrl: "https://www.amazon.in/s?k=Digitek+magnetic+phone+tripod+stand",
-    imageUrl: ""
+    imageUrl: "images/004.svg"
   },
   {
     code: "005",
@@ -72,7 +72,7 @@ const PRODUCTS = [
     hook: "Touch-controlled desk light bar that illuminates your keyboard without screen glare.",
     keywords: "quntis monitor light bar desk setup lamp tech gadget",
     affiliateUrl: "https://www.amazon.in/s?k=Quntis+monitor+light+bar",
-    imageUrl: ""
+    imageUrl: "images/005.svg"
   },
   {
     code: "006",
@@ -82,7 +82,7 @@ const PRODUCTS = [
     hook: "15W fast foldable wireless charging station for phone, watch, and earbuds.",
     keywords: "portronics freedom trio 3 in 1 foldable wireless charger tech",
     affiliateUrl: "https://www.amazon.in/dp/B0CV3XTPD3/",
-    imageUrl: ""
+    imageUrl: "images/006.svg"
   },
   {
     code: "007",
@@ -92,7 +92,7 @@ const PRODUCTS = [
     hook: "Everyday utility cargos with deep pockets—easy to style for gym or casual outings.",
     keywords: "lymio cargo joggers streetwear outfit men fashion",
     affiliateUrl: "https://www.amazon.in/s?k=Lymio+cargo+joggers",
-    imageUrl: ""
+    imageUrl: "images/007.svg"
   },
   {
     code: "008",
@@ -102,7 +102,7 @@ const PRODUCTS = [
     hook: "Clean boxy streetwear fit that pairs effortlessly with cargos or denim.",
     keywords: "lymio oversized t-shirt drop shoulder outfit",
     affiliateUrl: "https://www.amazon.in/s?k=Lymio+oversized+t-shirt",
-    imageUrl: ""
+    imageUrl: "images/008.svg"
   },
   {
     code: "009",
@@ -112,7 +112,7 @@ const PRODUCTS = [
     hook: "Lightweight polarized frames by Lenskart's Vincent Chase—instant outfit upgrade.",
     keywords: "vincent chase polarized sunglasses outfit accessory fashion",
     affiliateUrl: "https://www.amazon.in/s?k=Vincent+Chase+polarized+sunglasses",
-    imageUrl: ""
+    imageUrl: "images/009.svg"
   },
   {
     code: "010",
@@ -122,7 +122,7 @@ const PRODUCTS = [
     hook: "Blend protein shakes or iced coffee in 30 seconds—rechargeable via USB.",
     keywords: "lifelong portable usb blender protein shake trending",
     affiliateUrl: "https://www.amazon.in/s?k=Lifelong+portable+USB+blender",
-    imageUrl: ""
+    imageUrl: "images/010.svg"
   },
   {
     code: "011",
@@ -132,7 +132,7 @@ const PRODUCTS = [
     hook: "Turns any plain bedroom wall into golden-hour lighting for Reels and photos.",
     keywords: "sunset lamp projection aesthetic room decor trending",
     affiliateUrl: "https://www.amazon.in/s?k=sunset+projection+lamp+16+colors",
-    imageUrl: ""
+    imageUrl: "images/011.svg"
   },
   {
     code: "012",
@@ -142,6 +142,6 @@ const PRODUCTS = [
     hook: "Touch the cap to see water temperature—keeps drinks cold 24h or hot 12h.",
     keywords: "smart led temperature water bottle flask gym desk",
     affiliateUrl: "https://www.amazon.in/s?k=smart+led+temperature+water+bottle+500ml",
-    imageUrl: ""
+    imageUrl: "images/012.svg"
   }
 ];

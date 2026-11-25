@@ -34,6 +34,15 @@
     }
   }
 
+  function isSafeImageSrc(rawSrc) {
+    if (typeof rawSrc !== "string" || !rawSrc.trim()) return false;
+    const trimmed = rawSrc.trim();
+    if (/^images\/[a-zA-Z0-9_-]+\.(png|jpg|jpeg|webp|svg)$/.test(trimmed)) {
+      return true;
+    }
+    return isSafeHttpUrl(trimmed);
+  }
+
   function buildAffiliateUrl(rawUrl) {
     if (!isSafeHttpUrl(rawUrl)) return "#";
     const parsed = new URL(rawUrl.trim());
@@ -124,7 +133,7 @@
     const visual = document.createElement("div");
     visual.className = "card-visual";
 
-    if (isSafeHttpUrl(item.imageUrl)) {
+    if (isSafeImageSrc(item.imageUrl)) {
       const img = document.createElement("img");
       img.src = item.imageUrl;
       img.alt = item.title;
