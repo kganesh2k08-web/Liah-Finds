@@ -16,10 +16,10 @@ const SITE_CONFIG = {
   disclosureShort:
     "As an Amazon Associate, Liah Finds earns from qualifying purchases. #ad",
   socials: {
-    instagram: "https://www.instagram.com/",
+    instagram: "https://www.instagram.com/liahfinds",
     facebook: "https://www.facebook.com/",
     pinterest: "https://www.pinterest.com/",
-    youtube: "https://www.youtube.com/"
+    youtube: "https://youtube.com/@liahfinds"
   }
 };
 
