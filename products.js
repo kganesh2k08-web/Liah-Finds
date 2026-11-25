@@ -12,7 +12,7 @@ const SITE_CONFIG = {
   brandName: "Liah Finds",
   handle: "@liahfinds",
   tagline: "Curated Fitness, Tech Gadgets, Outfits & Trending Finds — Updated Daily",
-  amazonTag: "YOUR-TAG-21",
+  amazonTag: "liahfinds-21",
   disclosureShort:
     "As an Amazon Associate, Liah Finds earns from qualifying purchases. #ad",
   socials: {
