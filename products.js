@@ -32,7 +32,7 @@ const PRODUCTS = [
     hook: "Ergonomic non-slip grip with adjustable resistance for forearm & wrist strength.",
     keywords: "boldfit hand grip forearm workout fitness gym strength",
     affiliateUrl: "https://www.amazon.in/dp/B09PDZD95V/",
-    imageUrl: "images/001.svg"
+    imageUrl: "images/001.jpg"
   },
   {
     code: "002",
