@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liah Finds — Fitness, Tech Gadgets, Outfits & Trending Amazon Finds</title>
+  <meta
+    name="description"
+    content="Shop curated fitness gear, tech gadgets, outfits, and trending Amazon finds by Find Code (#001, #002...). As an Amazon Associate, Liah Finds earns from qualifying purchases."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Mandatory Top Affiliate Disclosure -->
+  <div class="disclosure-bar" role="note" aria-label="Affiliate disclosure">
+    <p id="disclosure-text">
+      As an Amazon Associate, Liah Finds earns from qualifying purchases. #ad
+    </p>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand-row">
+        <div class="brand-avatar" aria-hidden="true">LF</div>
+        <div>
+          <h1 id="brand-name" class="brand-title">Liah Finds</h1>
+          <p id="brand-handle" class="brand-handle">@liahfinds</p>
+        </div>
+      </div>
+
+      <p id="brand-tagline" class="brand-tagline">
+        Curated Fitness, Tech Gadgets, Outfits &amp; Trending Finds — Updated Daily
+      </p>
+
+      <nav class="social-links" aria-label="Social media channels">
+        <a id="social-instagram" class="social-pill" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a id="social-youtube" class="social-pill" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube Shorts</a>
+        <a id="social-pinterest" class="social-pill" href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer">Pinterest</a>
+        <a id="social-facebook" class="social-pill" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- Search & Category Filter Controls -->
+    <section class="controls-panel" aria-label="Find products">
+      <div class="search-wrap">
+        <label for="search-input" class="sr-only">Search by Find Code (e.g. 001) or keyword</label>
+        <input
+          id="search-input"
+          type="search"
+          placeholder="Search Find # (e.g. 001) or product name..."
+          autocomplete="off"
+        />
+        <button id="clear-search" type="button" class="clear-btn" hidden aria-label="Clear search">
+          Clear
+        </button>
+      </div>
+
+      <div id="category-chips" class="chip-list" role="tablist" aria-label="Filter by category">
+        <!-- Populated dynamically by app.js -->
+      </div>
+    </section>
+
+    <div class="results-meta">
+      <p id="results-count" aria-live="polite"></p>
+    </div>
+
+    <!-- Product Grid -->
+    <section id="product-grid" class="product-grid" aria-label="Curated product finds">
+      <!-- Populated dynamically by app.js -->
+    </section>
+
+    <!-- Helpful Empty State -->
+    <section id="empty-state" class="empty-state" hidden>
+      <h2>No matching finds</h2>
+      <p>Try searching a Find Code like <strong>001</strong>, <strong>005</strong>, or pick a category below.</p>
+      <button id="reset-filters" type="button" class="btn-primary">Show All Finds</button>
+    </section>
+  </main>
+
+  <footer id="disclosure" class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand"><strong>Liah Finds</strong> — Curated Daily Picks</p>
+      <p class="footer-disclosure">
+        <strong>Affiliate Disclosure:</strong> Liah Finds participates in the Amazon Services LLC / Amazon Associates India Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.in. Product availability and prices are subject to change on Amazon.
+      </p>
+    </div>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
